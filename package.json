@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "fastify": "^4.10.2"
+  },
+  "name": "bridge-relayer",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Alpha-Venturi/bridge-relayer.git"
+  },
+  "author": "JadenX"
+}
